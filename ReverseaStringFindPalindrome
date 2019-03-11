@@ -1,0 +1,15 @@
+var str="sis";
+var revstr="";
+
+for(var i=str.length-1;i>=0;i--){
+     revstr +=str[i];
+}
+
+
+document.write(revstr+"</br>");
+if(str==revstr){
+document.write("palindrome");
+
+}else{
+document.write("not");
+}

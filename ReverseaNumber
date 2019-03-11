@@ -1,0 +1,6 @@
+var num=897, sum=0;
+while(num>1){
+sum=num%10;
+num=parseInt(num/10);
+document.write(sum);
+}

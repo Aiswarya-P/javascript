@@ -1,0 +1,16 @@
+var sum=0;
+var num=407;
+var rem;
+temp=num;
+while(temp>0){
+rem=temp%10;
+temp=parseInt(temp/10);
+sum=sum + rem*rem*rem;
+}
+if(sum==num){
+document.write("Armstrong number");
+}
+else
+{
+document.write("Not Armstrong number");
+}

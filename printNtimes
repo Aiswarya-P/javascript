@@ -1,0 +1,8 @@
+  var n=prompt("enter");
+function hello(){
+  document.write("hel");
+}
+
+  for(var i=0;i<=n;i++){
+    hello();
+  }

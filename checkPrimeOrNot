@@ -1,0 +1,13 @@
+var n=13;
+
+var c=0;
+  for(var j=1;j<=n;j++){
+    if(n%j==0){
+      c=c+1;
+    }
+    }
+    if(c==2){
+      document.write("prime");
+    }else{
+       document.write("Not");
+    }

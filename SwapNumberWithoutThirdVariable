@@ -1,0 +1,9 @@
+var num1=2;
+var num2=3;
+
+document.write("before"+num1+" "+num2);
+
+num1=num1+num2;//5
+num2=num1-num2//2
+num1=num1-num2//3
+document.write("after" +num1+ " "+num2);

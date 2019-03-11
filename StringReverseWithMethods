@@ -1,0 +1,8 @@
+var str="yes";
+
+var strsplit=str.split("");
+var strrev=strsplit.reverse();
+var join=strrev.join("");
+
+
+document.write(join);

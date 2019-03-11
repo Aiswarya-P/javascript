@@ -1,0 +1,2 @@
+var array= ['DELHI','NEWYORK','DELHI','GOA','MUMBAI','CALIFORNIA','GOA'];
+document.write([...new Set(array)]);

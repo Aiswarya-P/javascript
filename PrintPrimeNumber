@@ -1,0 +1,16 @@
+var x=20;
+for(var i=2;i<=x;i++){
+  if(prime(i)){
+     document.write(i);
+     }
+}
+
+function prime(n){
+  var prime=true;
+  for(var j=2;j<n;j++){
+    if(n%j==0){
+      prime=false;
+    }
+  }
+  return prime;
+}

@@ -1,0 +1,8 @@
+var num=5,n=0;
+for(var i=0;i<num;i++){
+for(var j=0;j<=i;j++){
+ n++
+ document.write(n+" ");
+}
+ document.write("</br>");
+}

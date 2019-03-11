@@ -1,0 +1,14 @@
+
+var array= ['DELHI','NEWYORK','DELHI','GOA','MUMBAI','CALIFORNIA','GOA'];
+
+function removeDuplicates(arr){
+    let unique_array = []
+    for(let i = 0;i < array.length; i++){
+        if(unique_array.indexOf(array[i]) == -1){
+            unique_array.push(array[i])
+        }
+    }
+    return unique_array
+}
+
+document.write(removeDuplicates(array));

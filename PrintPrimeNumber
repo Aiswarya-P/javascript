@@ -1,7 +1,7 @@
 var x=20;
 for(var i=2;i<=x;i++){
   if(prime(i)){
-     document.write(i);
+     document.write(i+",");
      }
 }
 
